@@ -89,6 +89,95 @@ x*4
 output:iNeuroniNeuroniNeuroniNeuron
 ```
 
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+```bash
+num = int(input())
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+```
+
+Q18. What are boolean operator?
+```bash
+Ans= Boolean operators are those operators whose results value depends on some some condition and can like "<,=<,>=,>!,or,and"etc
+```
+
+Q19. What will the output of the following?
+1 or 0
+
+0 and 0
+
+True and False and True
+
+1 or 0 or 0
+
+```bash
+ans = 
+1
+0
+False
+1
+```
+
+
+Q20. What are conditional statements in Python?
+```bash 
+Ans= The conditional statements are the statements which is used to handle the condition in the program.these statement helps in making decision based on some conditions.
+Example:- if , if-else,elif
+```
+
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+```bash
+if = "if"  is used to check a condition.
+else ="else" if the if statement does not run than else runs.
+elif = if we want to check multiple condition than we can use elif
+```
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+```bash
+age = int(input())
+if age >= 18:
+    print(" I can vote")
+else:
+    print("I can't vote")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
