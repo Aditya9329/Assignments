@@ -137,12 +137,79 @@ elif = if we want to check multiple condition than we can use elif
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 ```bash
+Ans
 age = int(input())
 if age >= 18:
     print(" I can vote")
 else:
     print("I can't vote")
 ```
+
+
+
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+
+```bash
+Ans
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+s = 0
+for i in numbers:
+    if i%2 == 0:
+        s+=i
+    else:
+        pass
+print(s)
+```
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+```bash
+Ans
+
+n1,n2,n3 = int(input()),int(input()),int(input())
+if n1 > n2 and n1 >n3:
+    print("Greator=",n1)
+elif n2 > n1 and n2 > n3:
+    print("Greator=",n2)
+else:
+    print("Greator=",n3)
+```
+
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+
+
+
+```bash
+ans
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+
+for i in range(len(numbers)):
+    if numbers[i] % 5 == 0 and numbers[i] < 150:
+        print(numbers[i])
+    elif numbers[i] > 500:
+        break
+   
+```
+
+
 
 
 
